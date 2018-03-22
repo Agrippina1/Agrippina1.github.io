@@ -1,8 +1,17 @@
+@font-face {
+    font-family: "Gabriola";
+    src: local("Gabriola"), local("Gabriola"),
+    url("../fonts/Gabriola.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
 body {
   min-width: 320px;
   margin: 0 auto;
   font-family: "Gabriola", Helvetica, Arial, sans-serif;
   font-size: 30px;
+  color: #3e3b3b;
   background: #dad7d7;
 }
 img {
@@ -12,7 +21,7 @@ img {
 }
 a {
   text-decoration: none;
-  color: #000000;
+  color: #3e3b3b;
 }
 ul, p, h1, h2, h3, h4 {
   padding: 0;
